@@ -57,13 +57,22 @@
             <h1>Reported posts</h1>
         </div>
     </main>
-    <section>
+    <section class="container mt-5">
         <h2>How does Javascript works?</h2>
         <p>Javascript runs in an environment which could be either our popular browser or Node Js. Here, at first, our
             code is going through a parser in the Javascript engine, a program used by browser, reads our code line by
             line. Parser checks the syntax error. If any error is found then it throws an error. If no error is found,
             from here an Abstract Syntax Tree is created. In this layer, our codes are converted into machine code which
             is understandable by computer.</p>
+        <h2></h2>
+        <br>
+        <h2>What does Javascript event loop do?</h2>
+        <p>When javascript works, it executes a file from the top to down. An execution context is created and in the
+            execution phase, functions (callback function) are pushed and pops onto and off the call stack. At the same
+            time, functions are called from the event queue. This process is continue until the call stack is empty.
+            This cycle of taking an event from the event queue and placing it onto the call stack is called the event
+            loop.</p>
+
     </section>
     <footer></footer>
 
